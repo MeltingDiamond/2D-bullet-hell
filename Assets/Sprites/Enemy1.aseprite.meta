@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2e53a9ff47e12714eadd4f085e1cf1d3
+guid: 288189da8be0eae44a6c788b0f341ba1
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Player
+  - name: Enemy1
     originalName: 
-    pivot: {x: 0.5, y: -0.42857143}
+    pivot: {x: 0.5, y: -0.6428572}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -138,8 +138,8 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 18
-      height: 21
-    spriteID: 08b9577de24a85b0ba1db191474fcf18
+      height: 14
+    spriteID: 50990505cd78cc549ad5ee2ce5ff54ab
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,25 +153,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 1875862075
+      value0: 1656442127
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Player
+    name: Enemy1
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Player
+    - name: Enemy1
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
         x: 7
         y: 9
         width: 18
-        height: 21
-      spriteId: 08b9577de24a85b0ba1db191474fcf18
+        height: 14
+      spriteId: 50990505cd78cc549ad5ee2ce5ff54ab
     linkedCells: []
     tileCells: []
     tileSetIndex: 0

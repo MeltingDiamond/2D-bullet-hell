@@ -1,31 +1,19 @@
 fileFormatVersion: 2
-guid: e2a106faeaa52eb50ba7a6239a3f5d07
+guid: adf8f38eb2a56b0bd9bf6adb81f526d3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9081278693623360622
-    second: Enemy3-Sheet_0
+      213: -8312732283424941553
+    second: Enemy2-Sheet_0
   - first:
-      213: -6366988396368053875
-    second: Enemy3-Sheet_1
+      213: -1925912428921407331
+    second: Enemy2-Sheet_1
   - first:
-      213: -1457194378008095737
-    second: Enemy3-Sheet_2
+      213: 2376935786006118555
+    second: Enemy2-Sheet_2
   - first:
-      213: -1073972567141390651
-    second: Enemy3-Sheet_3
-  - first:
-      213: 4680579899801278760
-    second: Enemy3-Sheet_4
-  - first:
-      213: -4866458359211141236
-    second: Enemy3-Sheet_5
-  - first:
-      213: -8743263864283422183
-    second: Enemy3-Sheet_6
-  - first:
-      213: -4268450399766968482
-    second: Enemy3-Sheet_7
+      213: -2553599648655437860
+    second: Enemy2-Sheet_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -147,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Enemy3-Sheet_0
+      name: Enemy2-Sheet_0
       rect:
         serializedVersion: 2
         x: 5
-        y: 40
+        y: 9
         width: 22
-        height: 24
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,108 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6c6ebf6bde270e70800000000000000
-      internalID: 9081278693623360622
+      spriteID: f0ad88de70e33ac80800000000000000
+      internalID: -8312732283424941553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy3-Sheet_1
+      name: Enemy2-Sheet_1
       rect:
         serializedVersion: 2
-        x: 37
-        y: 40
-        width: 22
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d89b27989c9e3a7a0800000000000000
-      internalID: -6366988396368053875
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy3-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 40
-        width: 22
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 704912a0f6107cbe0800000000000000
-      internalID: -1457194378008095737
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy3-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 101
-        y: 40
-        width: 22
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5c6e50de3ab7811f0800000000000000
-      internalID: -1073972567141390651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy3-Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 8
-        width: 22
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8291d7ebe92c4f040800000000000000
-      internalID: 4680579899801278760
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy3-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 37
+        x: 36
         y: 6
-        width: 22
-        height: 26
+        width: 23
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c875df8e7edd67cb0800000000000000
-      internalID: -4866458359211141236
+      spriteID: d9831ad89d8c545e0800000000000000
+      internalID: -1925912428921407331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy3-Sheet_6
+      name: Enemy2-Sheet_2
       rect:
         serializedVersion: 2
         x: 69
-        y: 8
+        y: 9
         width: 22
-        height: 24
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 912a0e7d6dfa9a680800000000000000
-      internalID: -8743263864283422183
+      spriteID: b900fcaf0829cf020800000000000000
+      internalID: 2376935786006118555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy3-Sheet_7
+      name: Enemy2-Sheet_3
       rect:
         serializedVersion: 2
         x: 101
         y: 6
-        width: 22
-        height: 26
+        width: 23
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,8 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e5704840afa63c4c0800000000000000
-      internalID: -4268450399766968482
+      spriteID: cdf845b26aacf8cd0800000000000000
+      internalID: -2553599648655437860
       vertices: []
       indices: 
       edges: []
@@ -336,14 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Enemy3-Sheet_0: 9081278693623360622
-      Enemy3-Sheet_1: -6366988396368053875
-      Enemy3-Sheet_2: -1457194378008095737
-      Enemy3-Sheet_3: -1073972567141390651
-      Enemy3-Sheet_4: 4680579899801278760
-      Enemy3-Sheet_5: -4866458359211141236
-      Enemy3-Sheet_6: -8743263864283422183
-      Enemy3-Sheet_7: -4268450399766968482
+      Enemy2-Sheet_0: -8312732283424941553
+      Enemy2-Sheet_1: -1925912428921407331
+      Enemy2-Sheet_2: 2376935786006118555
+      Enemy2-Sheet_3: -2553599648655437860
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

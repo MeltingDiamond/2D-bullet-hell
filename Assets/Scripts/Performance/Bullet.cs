@@ -39,7 +39,8 @@ public class Bullet : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            Destroy(collision.gameObject);
+            EnemyController enemy = collision.gameObject.GetComponent<EnemyController>();
+            enemy.currentHealth--;
             gameObject.SetActive(false);
         }
     }

@@ -1,5 +1,6 @@
 using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class Bullet : MonoBehaviour
 {
@@ -7,11 +8,14 @@ public class Bullet : MonoBehaviour
     public float killTimerReset;
     public bool isAlive = true;
 
+    private ScoreManager score;
 
     private void Start()
     {
         isAlive = true;
         killTimerReset = killTimer;
+        
+        score = ScoreManager.instance;
     }
     
     private void Update()
@@ -41,6 +45,7 @@ public class Bullet : MonoBehaviour
         {
             EnemyController enemy = collision.gameObject.GetComponent<EnemyController>();
             enemy.currentHealth--;
+            score.AddScore();
             gameObject.SetActive(false);
         }
     }

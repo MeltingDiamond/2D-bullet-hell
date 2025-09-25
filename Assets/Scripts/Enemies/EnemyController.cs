@@ -23,12 +23,19 @@ public class EnemyController : MonoBehaviour
 
     private void Update()
     {
-        if (_target)
+        if (currentHealth <= 0)
         {
-            Vector3 direction = (_target.position - transform.position).normalized;
-            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-            _rigidbody2D.rotation = angle;
-            _moveDirection = direction;
+            Destroy(gameObject);
+        }
+        else
+        {
+            if (_target)
+            {
+                Vector3 direction = (_target.position - transform.position).normalized;
+                float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+                _rigidbody2D.rotation = angle;
+                _moveDirection = direction;
+            }
         }
     }
 

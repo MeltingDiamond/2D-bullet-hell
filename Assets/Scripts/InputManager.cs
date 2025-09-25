@@ -6,6 +6,7 @@ public class InputManager : MonoBehaviour
 
     public float Horizontal;
     public float Vertical;
+    public Vector2 MousePosition;
 
     public bool Attack;
 
@@ -19,6 +20,7 @@ public class InputManager : MonoBehaviour
         Horizontal = _inputSystem.Player.Move.ReadValue<Vector2>().x;
         Vertical = _inputSystem.Player.Move.ReadValue<Vector2>().y;
         Attack = _inputSystem.Player.Attack.WasPressedThisFrame();
+        MousePosition = _inputSystem.Player.Look.ReadValue<Vector2>();
     }
 
     private void OnEnable()

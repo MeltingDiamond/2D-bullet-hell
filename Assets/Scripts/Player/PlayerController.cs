@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class PlayerController : MonoBehaviour
     
     public int maxHealth;
     public int currentHealth;
+    public bool isKnockedBack = false;
 
     private void Start()
     {
@@ -21,6 +23,11 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (isKnockedBack)
+        {
+            StartCoroutine(KnockBack());
+            return; 
+        }
         _rigidbody2D.linearVelocityX = _input.Horizontal *  moveSpeed;
         _rigidbody2D.linearVelocityY = _input.Vertical *  moveSpeed;
     }
@@ -35,5 +42,12 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+    }
+
+    private IEnumerator KnockBack()
+    {
+        yield return new WaitForSeconds(2f);
+        print("game resumed?");
+        isKnockedBack = false;
     }
 }

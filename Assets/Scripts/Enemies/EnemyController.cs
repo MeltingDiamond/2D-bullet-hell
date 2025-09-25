@@ -44,12 +44,14 @@ public class EnemyController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            print(other.transform.name);
             PlayerController player = other.gameObject.GetComponent<PlayerController>();
-            /*
+            player.isKnockedBack = true;
+            
             Rigidbody2D rigidPlayer = other.gameObject.GetComponent<Rigidbody2D>();
-            Vector2 knockbackDirection = (transform.position - other.gameObject.transform.position).normalized;
+            Vector2 knockbackDirection = (other.transform.position - transform.position).normalized;
             rigidPlayer.AddForce(knockbackDirection * knockbackForce, ForceMode2D.Impulse);
-            */
+            
             player.TakeDamage(damage);
         }
     }

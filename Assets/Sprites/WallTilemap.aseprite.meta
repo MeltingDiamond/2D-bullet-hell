@@ -129,7 +129,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: WallTilemap
     originalName: 
-    pivot: {x: 0.5, y: -0.10000001}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,8 +137,8 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 64
-      height: 80
+      width: 80
+      height: 88
     spriteID: 9917607df3b85c8b0aba7ec660bb607d
     spriteBone: []
     spriteOutline: []
@@ -167,10 +167,10 @@ ScriptedImporter:
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 0
-        y: 8
-        width: 64
-        height: 80
+        x: 8
+        y: 0
+        width: 80
+        height: 88
       spriteId: 9917607df3b85c8b0aba7ec660bb607d
     linkedCells: []
     tileCells: []
@@ -181,5 +181,5 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 64, y: 96}
+  canvasSize: {x: 96, y: 96}
   previousTextureSize: {x: 128, y: 128}
